@@ -6,7 +6,7 @@ Deploy an EC2 instance in a private subnet and securely access it using a Bastio
 
 ---
 ## Architecture Diagram
-![Bastion Host](./assets/Private%20Subnet%20with%20Bastion%20Host.drawio.png    )
+![Bastion Host](./assets/Private%20Subnet%20with%20Bastion%20Host.drawio.png        )
 ---
 ## AWS Services Used
 
@@ -161,7 +161,12 @@ ssh -i <key-pair>.pem ec2-user@<private-ec2-private-ip>
 ---
 ## Key Learnings
 
-_To be updated after completing the lab._
+* Public subnets provide internet access through an Internet Gateway.
+* Private subnets do not require public IP addresses.
+* Bastion Hosts provide secure administrative access to private instances.
+* Security Groups can reference other Security Groups instead of IP addresses.
+* Private EC2 instances can be accessed using SSH through a Bastion Host.
+* Network design determines how resources communicate within a VPC.
 
 ---
 ## Cleanup
@@ -172,5 +177,3 @@ _To be updated after completing the lab._
 - Detach and delete Internet Gateway
 - Delete Subnets
 - Delete VPC
-
-
