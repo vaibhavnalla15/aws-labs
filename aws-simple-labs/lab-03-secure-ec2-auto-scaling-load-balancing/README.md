@@ -8,7 +8,7 @@ Build a highly available web application using an Application Load Balancer and 
 
 ## Architecture
 
-![ec2-asg-alb](./assets/EC2%20Auto%20Scaling%20+%20Load%20Balancing.drawio.png)
+![ec2-asg-alb](./assets/EC2%20Auto%20Scaling%20+%20ALB.drawio.png)
 ---
 
 ## AWS Services Used
