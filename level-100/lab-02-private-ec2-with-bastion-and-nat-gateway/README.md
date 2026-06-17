@@ -1,7 +1,6 @@
 # Lab 02: Single EC2 Instance in a Private Subnet + Bastion Host + NAT Gateway
 
 ## Objective
-
 Deploy a private EC2 instance that can securely receive administrative access through a Bastion Host and initiate outbound internet access using a NAT Gateway.
 
 ---
