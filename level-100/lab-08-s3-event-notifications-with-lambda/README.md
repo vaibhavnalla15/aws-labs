@@ -10,21 +10,7 @@ In this lab, whenever a file is uploaded to an S3 bucket, AWS Lambda is automati
 
 # Architecture
 
-```text
-            File Upload
-                  │
-                  ▼
-            Amazon S3
-                  │
-        ObjectCreated Event
-                  │
-                  ▼
-             AWS Lambda
-                  │
-                  ▼
-          Amazon CloudWatch
-                Logs
-```
+![lambda-s3-event](./assests/lambda-s3-event.drawio.png)
 
 ---
 
