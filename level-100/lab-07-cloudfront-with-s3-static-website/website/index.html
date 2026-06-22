@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS Labs | CloudFront</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>
+          <span class="cloud">☁️</span>
+          AWS Cloud Labs
+        </h1>
+
+        <h2>Lab 07 - Version 2</h2>
+
+        <h3>CloudFront Caching Demonstration</h3>
+
+        <p>
+          This website is hosted on Amazon S3 and delivered globally through
+          Amazon CloudFront.
+        </p>
+
+        <div class="info-grid">
+          <div class="info-box">
+            <h4>Service</h4>
+            <p>CloudFront</p>
+          </div>
+
+          <div class="info-box">
+            <h4>Origin</h4>
+            <p>Amazon S3</p>
+          </div>
+
+          <div class="info-box">
+            <h4>Status</h4>
+            <p id="status">Loading...</p>
+          </div>
+        </div>
+
+        <button onclick="showFact()">Generate AWS Fact</button>
+
+        <div id="fact-box"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

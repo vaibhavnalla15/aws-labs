@@ -1,0 +1,178 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Card styling */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+
+    padding: 40px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Main heading */
+.card h1 {
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+/* Animated Cloud */
+.cloud {
+    display: inline-block;
+
+    /* Floating animation */
+    animation: floatCloud 4s ease-in-out infinite;
+
+    /* Soft blue glow */
+    filter: drop-shadow(0 0 8px rgba(135, 206, 250, 0.8));
+}
+
+/* Floating cloud animation */
+@keyframes floatCloud {
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(-8px, -3px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    75% {
+        transform: translate(8px, 3px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* Hover effect */
+.cloud:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/* Lab title */
+.card h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* Subtitle */
+.card h3 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* Paragraph text */
+.card p {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Information cards container */
+.info-grid {
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    gap: 20px;
+}
+
+/* Individual info card */
+.info-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on cards */
+.info-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Button styling */
+button {
+    margin-top: 30px;
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* AWS fact text */
+#fact-box {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #facc15;
+    min-height: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .card {
+        padding: 25px;
+    }
+
+    .card h1 {
+        font-size: 2.2rem;
+    }
+
+    .card h2 {
+        font-size: 1.6rem;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+}
