@@ -131,7 +131,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Database Connectivity
 * Client-Server Architecture
 
-**Link:** [Lab 04](level-100/lab-04-rds-database-access-from-ec2)
+**Link:** [Lab 04](level-100/lab-04-rds-mysql-with-ec2-client)
 
 ---
 
@@ -171,7 +171,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Custom Policies
 * Least Privilege
 
-**Link:** [Lab 06](level-100lab-06-iam-least-privilege-and-policy-management)
+**Link:** [Lab 06](level-100/lab-06-iam-least-privilege-and-policy-management)
 
 ---
 
