@@ -90,7 +90,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Private Networking
 * Secure Architecture
 
-**Link:** `level-100/lab-02-private-ec2-with-bastion-and-nat-gateway`
+**Link:** [Lab 02](level-100/lab-02-private-ec2-with-bastion-and-nat-gateway)
 
 ---
 
@@ -111,7 +111,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Auto Scaling
 * Load Balancing
 
-**Link:** `level-100/lab-03-secure-ec2-auto-scaling-load-balancing`
+**Link:** [Lab 03](level-100/lab-03-secure-ec2-auto-scaling-load-balancing)
 
 ---
 
@@ -131,7 +131,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Database Connectivity
 * Client-Server Architecture
 
-**Link:** `level-100/lab-04-rds-database-access-from-ec2`
+**Link:** [Lab 04](level-100/lab-04-rds-database-access-from-ec2)
 
 ---
 
@@ -151,7 +151,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Linux Filesystems
 * Disk Management
 
-**Link:** `level-100/lab-05-ec2-ebs-volumes-and-snapshots`
+**Link:** [Lab 05](level-100/lab-05-ec2-ebs-volumes-and-snapshots)
 
 ---
 
@@ -171,7 +171,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Custom Policies
 * Least Privilege
 
-**Link:** `level-100/lab-06-iam-least-privilege-and-policy-management`
+**Link:** [Lab 06](level-100lab-06-iam-least-privilege-and-policy-management)
 
 ---
 
@@ -191,7 +191,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Static Website Hosting
 * CloudFront Caching
 
-**Link:** `level-100/lab-07-cloudfront-with-s3-static-website`
+**Link:** [Lab 07](level-100/lab-07-cloudfront-with-s3-static-website)
 
 ---
 
@@ -212,7 +212,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Lambda Triggers
 * CloudWatch Logs
 
-**Link:** `level-100/lab-08-s3-event-notifications-with-lambda`
+**Link:** [Lab 08](level-100/lab-08-s3-event-notifications-with-lambda)
 
 ---
 
@@ -232,7 +232,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Error Handling
 * API Development
 
-**Link:** [Lab-09](level-100/lab-09-simple-serverless-api-with-lambda)
+**Link:** [Lab 09](level-100/lab-09-simple-serverless-api-with-lambda)
 
 ---
 
@@ -253,7 +253,7 @@ This section contains beginner-friendly labs designed to build a strong foundati
 * Lambda Integration
 * Serverless APIs
 
-**Link:** `level-100/lab-10-api-gateway-with-lambda`
+**Link:** [Lab 10](/level-100/lab-10-api-gateway-with-lambda)
 
 ---
 
