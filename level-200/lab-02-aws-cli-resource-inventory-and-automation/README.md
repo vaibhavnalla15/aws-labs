@@ -15,11 +15,6 @@ This lab demonstrates how Cloud Engineers automate repetitive operational tasks 
 ---
 
 # Real-World Scenario
-
-Imagine you join an organization as a Cloud Engineer.
-
-Your manager asks:
-
 * Generate an inventory of all EC2 instances.
 * Generate an inventory of all S3 buckets.
 * Automatically stop non-production resources to save costs.
